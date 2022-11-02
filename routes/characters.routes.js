@@ -30,7 +30,9 @@ router.get("/characters/:id", (req, res, next) => {
     .catch((err) => console.error(err));
 });
 
-
+router.get("/characters/:id/edit", (req, res, next) => {
+  
+})
 
 router.post("/characters/create", async (req, res, next) => {
     try {
